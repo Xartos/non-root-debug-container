@@ -2,7 +2,7 @@
 
 Ubuntu container with some additional tools. The container is created to run as non root.
 
-The container is uploaded to https://hub.docker.com/r/freddeliv/rootlessubuntu:20.04
+The container is uploaded to https://hub.docker.com/r/freddeliv/rootlessubuntu
 
 The following can be added as a function if you want a handy function in you bash shell
 
