@@ -9,8 +9,7 @@ The following can be added as a function if you want a handy function in you bas
 ```bash
 function k8s-deploy-debug {
   kubectl run debug --rm -it \
-    --image=freddeliv/rootlessubuntu:20.04 \
-    --overrides='{"spec":{"securityContext":{"runAsUser":1000,"runAsGroup":1000}}}' \
+    --image=freddeliv/rootlessubuntu:20.04_20210409 \
     ${*}
 }
 ```
